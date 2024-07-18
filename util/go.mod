@@ -1,6 +1,6 @@
-module github.com/okx/go-wallet-sdk/util
+module github.com/ewhal/go-wallet-sdk/util
 
-go 1.19
+go 1.21.4
 
 require golang.org/x/crypto v0.12.0
 

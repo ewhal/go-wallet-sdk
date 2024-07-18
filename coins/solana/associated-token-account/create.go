@@ -15,7 +15,7 @@
 package associatedtokenaccount
 
 import (
-	"github.com/okx/go-wallet-sdk/coins/solana/base"
+	"github.com/ewhal/go-wallet-sdk/coins/solana/base"
 )
 
 type Create struct {

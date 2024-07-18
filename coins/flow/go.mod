@@ -1,6 +1,6 @@
-module github.com/okx/go-wallet-sdk/coins/flow
+module github.com/ewhal/go-wallet-sdk/coins/flow
 
-go 1.19
+go 1.21.4
 
 require (
 	github.com/btcsuite/btcd/btcec/v2 v2.3.2

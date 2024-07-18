@@ -8,7 +8,7 @@ Aptos SDK is used to interact with the Aptos blockchain, it contains various fun
 To obtain the latest version, simply require the project using :
 
 ```shell
-go get -u github.com/okx/go-wallet-sdk/coins/aptos
+go get -u github.com/ewhal/go-wallet-sdk/coins/aptos
 ```
 
 ## Usage
@@ -44,4 +44,4 @@ go get -u github.com/okx/go-wallet-sdk/coins/aptos
 ```
 
 ## License
-Most packages or folder are [MIT](<https://github.com/okx/go-wallet-sdk/blob/main/coins/aptos/LICENSE>) licensed, see package or folder for the respective license.
+Most packages or folder are [MIT](<https://github.com/ewhal/go-wallet-sdk/blob/main/coins/aptos/LICENSE>) licensed, see package or folder for the respective license.

@@ -16,7 +16,8 @@ package computebudget
 
 import (
 	"errors"
-	"github.com/okx/go-wallet-sdk/coins/solana/base"
+
+	"github.com/ewhal/go-wallet-sdk/coins/solana/base"
 )
 
 const MAX_COMPUTE_UNIT_LIMIT = 1400000

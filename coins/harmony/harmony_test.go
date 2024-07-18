@@ -2,12 +2,13 @@ package harmony
 
 import (
 	"encoding/hex"
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/btcutil/bech32"
-	"github.com/okx/go-wallet-sdk/coins/ethereum"
-	"github.com/stretchr/testify/require"
 	"math/big"
 	"testing"
+
+	"github.com/btcsuite/btcd/btcec/v2"
+	"github.com/btcsuite/btcd/btcutil/bech32"
+	"github.com/ewhal/go-wallet-sdk/coins/ethereum"
+	"github.com/stretchr/testify/require"
 )
 
 func TestNewAddress(t *testing.T) {

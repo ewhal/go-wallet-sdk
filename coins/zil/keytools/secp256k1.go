@@ -18,9 +18,10 @@ package keytools
 
 import (
 	"crypto/rand"
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/okx/go-wallet-sdk/coins/zil/util"
 	"math/big"
+
+	"github.com/btcsuite/btcd/btcec/v2"
+	"github.com/ewhal/go-wallet-sdk/coins/zil/util"
 )
 
 type PrivateKey [32]byte

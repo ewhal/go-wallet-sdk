@@ -18,7 +18,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/okx/go-wallet-sdk/coins/solana/base"
+	"github.com/ewhal/go-wallet-sdk/coins/solana/base"
 )
 
 // Burns tokens by removing them from an account.  `Burn` does not support

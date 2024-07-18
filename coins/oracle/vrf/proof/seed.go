@@ -7,9 +7,10 @@ Copyright (c) 2018 SmartContract ChainLink, Ltd.
 package proof
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/okx/go-wallet-sdk/crypto/vrf/utils"
 	"math/big"
+
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ewhal/go-wallet-sdk/crypto/vrf/utils"
 )
 
 // Seed represents a VRF seed as a serialized uint256

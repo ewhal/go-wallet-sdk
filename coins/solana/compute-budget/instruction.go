@@ -17,7 +17,8 @@ package computebudget
 import (
 	"bytes"
 	"fmt"
-	"github.com/okx/go-wallet-sdk/coins/solana/base"
+
+	"github.com/ewhal/go-wallet-sdk/coins/solana/base"
 )
 
 const (

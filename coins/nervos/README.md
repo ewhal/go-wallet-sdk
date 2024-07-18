@@ -8,7 +8,7 @@ Nervos SDK is used to interact with the Nervos blockchain, it contains various f
 To obtain the latest version, simply require the project using :
 
 ```shell
-go get -u github.com/okx/go-wallet-sdk/coins/nervos
+go get -u github.com/ewhal/go-wallet-sdk/coins/nervos
 ```
 
 ## Usage
@@ -46,4 +46,4 @@ go get -u github.com/okx/go-wallet-sdk/coins/nervos
 ```
 
 ## License
-Most packages or folder are [MIT](<https://github.com/okx/go-wallet-sdk/blob/main/coins/nervos/LICENSE>) licensed, see package or folder for the respective license.
+Most packages or folder are [MIT](<https://github.com/ewhal/go-wallet-sdk/blob/main/coins/nervos/LICENSE>) licensed, see package or folder for the respective license.

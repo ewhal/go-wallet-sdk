@@ -1,11 +1,10 @@
-module github.com/okx/go-wallet-sdk/coins/avax
+module github.com/ewhal/go-wallet-sdk/coins/avax
 
-go 1.19
+go 1.21.4
 
 require (
 	github.com/btcsuite/btcd/btcec/v2 v2.3.2
 	github.com/btcsuite/btcd/btcutil v1.1.3
-	github.com/okx/go-wallet-sdk/crypto v0.0.1
 	github.com/stretchr/testify v1.8.4
 )
 

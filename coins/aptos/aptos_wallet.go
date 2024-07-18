@@ -2,8 +2,9 @@ package aptos
 
 import (
 	"encoding/hex"
-	"github.com/okx/go-wallet-sdk/crypto/ed25519"
-	"github.com/okx/go-wallet-sdk/wallet"
+
+	"github.com/ewhal/go-wallet-sdk/crypto/ed25519"
+	"github.com/ewhal/go-wallet-sdk/wallet"
 )
 
 const HexPrefix = "0x"

@@ -4,8 +4,9 @@ import (
 	"crypto/sha256"
 	"errors"
 	"fmt"
+
 	"github.com/eoscanada/eos-go/ecc"
-	"github.com/okx/go-wallet-sdk/coins/eos/types"
+	"github.com/ewhal/go-wallet-sdk/coins/eos/types"
 )
 
 type Signer struct {

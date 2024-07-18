@@ -6,11 +6,12 @@ import (
 	"encoding/hex"
 	"encoding/json"
 	"errors"
-	"github.com/dchest/blake2b"
-	"github.com/okx/go-wallet-sdk/crypto/base58"
-	"github.com/okx/go-wallet-sdk/crypto/ed25519"
 	"regexp"
 	"strings"
+
+	"github.com/dchest/blake2b"
+	"github.com/ewhal/go-wallet-sdk/crypto/base58"
+	"github.com/ewhal/go-wallet-sdk/crypto/ed25519"
 )
 
 const (

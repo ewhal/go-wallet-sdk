@@ -3,10 +3,11 @@ package nervos
 import (
 	"encoding/hex"
 	"errors"
-	"github.com/btcsuite/btcd/btcutil/bech32"
-	"github.com/okx/go-wallet-sdk/coins/nervos/crypto"
-	"github.com/okx/go-wallet-sdk/coins/nervos/types"
 	"strings"
+
+	"github.com/btcsuite/btcd/btcutil/bech32"
+	"github.com/ewhal/go-wallet-sdk/coins/nervos/crypto"
+	"github.com/ewhal/go-wallet-sdk/coins/nervos/types"
 )
 
 type Mode string

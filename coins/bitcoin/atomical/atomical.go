@@ -2,14 +2,15 @@ package atomical
 
 import (
 	"errors"
+	"sort"
+
 	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/btcsuite/btcd/btcutil"
 	"github.com/btcsuite/btcd/chaincfg"
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/txscript"
 	"github.com/btcsuite/btcd/wire"
-	"github.com/okx/go-wallet-sdk/coins/bitcoin"
-	"sort"
+	"github.com/ewhal/go-wallet-sdk/coins/bitcoin"
 )
 
 const (
@@ -167,7 +168,7 @@ func (a *AtomicalRequest) Check(network *chaincfg.Params, minChangeValue int64) 
 	if len(typs2) != 1 {
 		return &Err{ErrCode: ErrCodeMul}
 	}
-	for k, _ := range typs2 {
+	for k := range typs2 {
 		if _, ok := typs1[k]; !ok {
 			return &Err{ErrCode: ErrCodeMul}
 		}

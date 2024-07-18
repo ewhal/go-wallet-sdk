@@ -4,7 +4,8 @@ import (
 	"bytes"
 	"crypto/sha256"
 	"encoding/hex"
-	"github.com/okx/go-wallet-sdk/coins/zksync/core"
+
+	"github.com/ewhal/go-wallet-sdk/coins/zksync/core"
 )
 
 type TransactionTypeChangePubKey struct {

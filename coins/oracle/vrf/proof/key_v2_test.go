@@ -10,12 +10,13 @@ import (
 	"crypto/ecdsa"
 	"crypto/rand"
 	"encoding/hex"
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/okx/go-wallet-sdk/crypto/vrf/secp256k1"
-	"github.com/stretchr/testify/require"
 	"math/big"
 	"testing"
+
+	"github.com/btcsuite/btcd/btcec/v2"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ewhal/go-wallet-sdk/crypto/vrf/secp256k1"
+	"github.com/stretchr/testify/require"
 )
 
 func TestVRFKeys_KeyV2_Raw(t *testing.T) {

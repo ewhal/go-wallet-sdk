@@ -7,4 +7,4 @@ All notable changes to this project will be documented in this file.
 
 ### updates
 
-- **cosmos-sdk:** change some files name and remove some unused libs ([21](https://github.com/okx/go-wallet-sdk/pull/21))
+- **cosmos-sdk:** change some files name and remove some unused libs ([21](https://github.com/ewhal/go-wallet-sdk/pull/21))

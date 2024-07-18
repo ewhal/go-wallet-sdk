@@ -1,9 +1,10 @@
 package nervos
 
 import (
-	"github.com/okx/go-wallet-sdk/coins/nervos/types"
-	"github.com/stretchr/testify/require"
 	"testing"
+
+	"github.com/ewhal/go-wallet-sdk/coins/nervos/types"
+	"github.com/stretchr/testify/require"
 )
 
 func TestConvertScriptToBech32mFullAddress(t *testing.T) {

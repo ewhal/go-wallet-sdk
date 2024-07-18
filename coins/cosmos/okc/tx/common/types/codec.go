@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/okx/go-wallet-sdk/coins/cosmos/okc/tx/amino"
+	"github.com/ewhal/go-wallet-sdk/coins/cosmos/okc/tx/amino"
 )
 
 // Register the sdk message type

@@ -1,13 +1,12 @@
-module github.com/okx/go-wallet-sdk/coins/cosmos
+module github.com/ewhal/go-wallet-sdk/coins/cosmos
 
-go 1.19
+go 1.21.4
 
 require (
 	cosmossdk.io/math v1.1.2
 	github.com/btcsuite/btcd/btcec/v2 v2.3.2
 	github.com/btcsuite/btcd/btcutil v1.1.3
 	github.com/ethereum/go-ethereum v1.12.2
-	github.com/okx/go-wallet-sdk/crypto v0.0.1
 	github.com/stretchr/testify v1.8.4
 	github.com/tyler-smith/go-bip39 v1.1.0
 	golang.org/x/crypto v0.12.0

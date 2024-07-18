@@ -9,7 +9,8 @@ package types
 import (
 	"bytes"
 	"encoding/json"
-	"github.com/okx/go-wallet-sdk/crypto/base58"
+
+	"github.com/ewhal/go-wallet-sdk/crypto/base58"
 )
 
 type TransactionType byte

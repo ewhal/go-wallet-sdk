@@ -4,6 +4,7 @@ import (
 	"bytes"
 	"encoding/hex"
 	"errors"
+
 	"github.com/btcsuite/btcd/btcec/v2/schnorr"
 	"github.com/btcsuite/btcd/btcutil"
 	"github.com/btcsuite/btcd/btcutil/psbt"
@@ -11,7 +12,7 @@ import (
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/txscript"
 	"github.com/btcsuite/btcd/wire"
-	"github.com/okx/go-wallet-sdk/coins/bitcoin"
+	"github.com/ewhal/go-wallet-sdk/coins/bitcoin"
 )
 
 type TxInput struct {
@@ -85,8 +86,8 @@ func GenerateAtomicalSignedListingPSBTBase64(in *TxInput, out *TxOutput, network
 	}
 	witnessUtxo := wire.NewTxOut(in.Amount, prevPkScript)
 	prevOuts := map[wire.OutPoint]*wire.TxOut{
-		wire.OutPoint{Index: 0}: dummyWitnessUtxo,
-		*prevOut:                witnessUtxo,
+		{Index: 0}: dummyWitnessUtxo,
+		*prevOut:   witnessUtxo,
 	}
 	prevOutputFetcher := txscript.NewMultiPrevOutFetcher(prevOuts)
 

@@ -4,14 +4,15 @@ import (
 	"encoding/binary"
 	"encoding/hex"
 	"fmt"
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/stretchr/testify/require"
 	"math/big"
 	"testing"
 	"time"
 
-	"github.com/okx/go-wallet-sdk/coins/tron/token"
-	"github.com/okx/go-wallet-sdk/util/abi"
+	"github.com/btcsuite/btcd/btcec/v2"
+	"github.com/stretchr/testify/require"
+
+	"github.com/ewhal/go-wallet-sdk/coins/tron/token"
+	"github.com/ewhal/go-wallet-sdk/util/abi"
 )
 
 func TestTron_NewAddress(t *testing.T) {

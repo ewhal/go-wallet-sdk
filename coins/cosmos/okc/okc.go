@@ -1,7 +1,7 @@
 package okc
 
 import (
-	"github.com/okx/go-wallet-sdk/coins/cosmos"
+	"github.com/ewhal/go-wallet-sdk/coins/cosmos"
 )
 
 const (

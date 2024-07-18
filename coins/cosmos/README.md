@@ -24,7 +24,7 @@ The SDK not only support Atom, it also supports following chains:
 To obtain the latest version, simply require the project using :
 
 ```shell
-go get -u github.com/okx/go-wallet-sdk/coins/cosmos
+go get -u github.com/ewhal/go-wallet-sdk/coins/cosmos
 ```
 
 ## Usage
@@ -132,4 +132,4 @@ go get -u github.com/okx/go-wallet-sdk/coins/cosmos
 ```
 
 ## License
-Most packages or folder are [MIT](<https://github.com/okx/go-wallet-sdk/blob/main/coins/cosmos/LICENSE>) licensed, see package or folder for the respective license.
+Most packages or folder are [MIT](<https://github.com/ewhal/go-wallet-sdk/blob/main/coins/cosmos/LICENSE>) licensed, see package or folder for the respective license.

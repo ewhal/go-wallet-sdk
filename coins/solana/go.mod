@@ -1,9 +1,8 @@
-module github.com/okx/go-wallet-sdk/coins/solana
+module github.com/ewhal/go-wallet-sdk/coins/solana
 
-go 1.19
+go 1.21.4
 
 require (
-	github.com/okx/go-wallet-sdk/crypto v0.0.1
 	github.com/stretchr/testify v1.8.4
 	github.com/tyler-smith/go-bip39 v1.1.0
 )

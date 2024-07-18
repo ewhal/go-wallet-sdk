@@ -2,7 +2,8 @@ package types
 
 import (
 	"encoding/json"
-	"github.com/okx/go-wallet-sdk/coins/nervos/crypto"
+
+	"github.com/ewhal/go-wallet-sdk/coins/nervos/crypto"
 )
 
 const HashLength = 32

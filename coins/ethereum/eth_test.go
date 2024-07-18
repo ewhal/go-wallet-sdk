@@ -2,12 +2,13 @@ package ethereum
 
 import (
 	"encoding/hex"
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/stretchr/testify/require"
 	"math/big"
 	"testing"
 
-	"github.com/okx/go-wallet-sdk/coins/ethereum/token"
+	"github.com/btcsuite/btcd/btcec/v2"
+	"github.com/stretchr/testify/require"
+
+	"github.com/ewhal/go-wallet-sdk/coins/ethereum/token"
 )
 
 func TestPubKeyToAddr(t *testing.T) {

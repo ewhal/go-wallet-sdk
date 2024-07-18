@@ -66,4 +66,4 @@ placeholder private key with your own private key, which is generally in hex for
 You can provide feedback directly in GitHub Issues, and we will respond promptly.
 
 ## License
-Most packages or folder are [MIT](<https://github.com/okx/go-wallet-sdk/blob/main/LICENSE>) licensed, see package or folder for the respective license.
+Most packages or folder are [MIT](<https://github.com/ewhal/go-wallet-sdk/blob/main/LICENSE>) licensed, see package or folder for the respective license.

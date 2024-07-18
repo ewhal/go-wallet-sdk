@@ -7,7 +7,7 @@ import (
 	"encoding/binary"
 	"encoding/hex"
 
-	"github.com/okx/go-wallet-sdk/util"
+	"github.com/ewhal/go-wallet-sdk/util"
 )
 
 type TxStruct struct {

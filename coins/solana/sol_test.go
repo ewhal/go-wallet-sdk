@@ -2,12 +2,13 @@ package solana
 
 import (
 	"encoding/hex"
-	"github.com/stretchr/testify/require"
 	"testing"
 
-	"github.com/okx/go-wallet-sdk/coins/solana/base"
-	"github.com/okx/go-wallet-sdk/coins/solana/token"
-	"github.com/okx/go-wallet-sdk/crypto/ed25519"
+	"github.com/stretchr/testify/require"
+
+	"github.com/ewhal/go-wallet-sdk/coins/solana/base"
+	"github.com/ewhal/go-wallet-sdk/coins/solana/token"
+	"github.com/ewhal/go-wallet-sdk/crypto/ed25519"
 )
 
 func Test_NewAddess(t *testing.T) {

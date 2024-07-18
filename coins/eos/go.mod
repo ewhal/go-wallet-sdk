@@ -1,6 +1,6 @@
-module github.com/okx/go-wallet-sdk/coins/eos
+module github.com/ewhal/go-wallet-sdk/coins/eos
 
-go 1.19
+go 1.21.4
 
 require (
 	github.com/eoscanada/eos-go v0.10.2

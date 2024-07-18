@@ -3,14 +3,15 @@ package bitcoin
 import (
 	"encoding/hex"
 	"fmt"
+	"testing"
+
 	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/btcsuite/btcd/btcec/v2/ecdsa"
 	"github.com/btcsuite/btcd/btcutil"
 	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/okx/go-wallet-sdk/util"
+	"github.com/ewhal/go-wallet-sdk/util"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"testing"
 )
 
 // support for single private key address formats (legacy/segwit_nested/segwit_native/taproot_keypath)

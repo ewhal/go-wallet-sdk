@@ -2,11 +2,12 @@ package filecoin
 
 import (
 	"encoding/json"
-	"github.com/okx/go-wallet-sdk/util"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
 	"math/big"
 	"testing"
+
+	"github.com/ewhal/go-wallet-sdk/util"
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
 )
 
 func TestNewPrivateKey(t *testing.T) {

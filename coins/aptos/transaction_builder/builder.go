@@ -2,8 +2,9 @@ package transaction_builder
 
 import (
 	"errors"
-	"github.com/okx/go-wallet-sdk/coins/aptos/aptos_types"
-	"github.com/okx/go-wallet-sdk/coins/aptos/bcs"
+
+	"github.com/ewhal/go-wallet-sdk/coins/aptos/aptos_types"
+	"github.com/ewhal/go-wallet-sdk/coins/aptos/bcs"
 )
 
 func ToBCSArgs(abiArgs []aptos_types.ArgumentABI, args []any) ([][]byte, error) {

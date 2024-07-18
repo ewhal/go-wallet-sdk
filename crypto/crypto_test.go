@@ -11,18 +11,19 @@ import (
 	"encoding/base64"
 	"encoding/hex"
 	"fmt"
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/btcec/v2/ecdsa"
-	"github.com/btcsuite/btcd/btcutil"
-	"github.com/btcsuite/btcd/btcutil/bech32"
-	"github.com/okx/go-wallet-sdk/crypto/base58"
-	"github.com/okx/go-wallet-sdk/crypto/bip32"
-	bip39 "github.com/tyler-smith/go-bip39"
-	"golang.org/x/crypto/sha3"
 	"io"
 	"os"
 	"strings"
 	"testing"
+
+	"github.com/btcsuite/btcd/btcec/v2"
+	"github.com/btcsuite/btcd/btcec/v2/ecdsa"
+	"github.com/btcsuite/btcd/btcutil"
+	"github.com/btcsuite/btcd/btcutil/bech32"
+	"github.com/ewhal/go-wallet-sdk/crypto/base58"
+	"github.com/ewhal/go-wallet-sdk/crypto/bip32"
+	bip39 "github.com/tyler-smith/go-bip39"
+	"golang.org/x/crypto/sha3"
 )
 
 func TestNewChildKeyByPathString(t *testing.T) {

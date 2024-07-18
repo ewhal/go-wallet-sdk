@@ -8,7 +8,7 @@ Tezos SDK is used to interact with the Tezos blockchain, it contains various fun
 To obtain the latest version, simply require the project using :
 
 ```shell
-go get -u github.com/okx/go-wallet-sdk/coins/tezos
+go get -u github.com/ewhal/go-wallet-sdk/coins/tezos
 ```
 
 ## Usage
@@ -62,4 +62,4 @@ rawTx, err := SignTransaction(tx, p2, opt)
 ```
 
 ## License
-Most packages or folder are [MIT](<https://github.com/okx/go-wallet-sdk/blob/main/coins/aptos/LICENSE>) licensed, see package or folder for the respective license.
+Most packages or folder are [MIT](<https://github.com/ewhal/go-wallet-sdk/blob/main/coins/aptos/LICENSE>) licensed, see package or folder for the respective license.

@@ -3,12 +3,13 @@ package atomical
 import (
 	"bytes"
 	"encoding/hex"
+	"testing"
+
 	"github.com/btcsuite/btcd/btcutil"
 	"github.com/btcsuite/btcd/btcutil/psbt"
-	"github.com/okx/go-wallet-sdk/coins/bitcoin"
+	"github.com/ewhal/go-wallet-sdk/coins/bitcoin"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"testing"
 
 	"github.com/btcsuite/btcd/chaincfg"
 )
@@ -22,7 +23,7 @@ func TestMergePsbt(t *testing.T) {
 	bp, err := psbt.NewFromRawBytes(bytes.NewReader([]byte(buyPsbt)), true)
 	assert.NoError(t, err)
 	sp.Inputs[1] = bp.Inputs[1]
-	for k, _ := range sp.Inputs {
+	for k := range sp.Inputs {
 		err = psbt.Finalize(sp, k)
 		assert.NoError(t, err)
 	}

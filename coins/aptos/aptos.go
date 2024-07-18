@@ -5,15 +5,16 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/okx/go-wallet-sdk/coins/aptos/aptos_types"
-	"github.com/okx/go-wallet-sdk/coins/aptos/transaction_builder"
 	"math/big"
 	"regexp"
 	"strconv"
 	"strings"
 
-	"github.com/okx/go-wallet-sdk/coins/aptos/serde"
-	"github.com/okx/go-wallet-sdk/crypto/ed25519"
+	"github.com/ewhal/go-wallet-sdk/coins/aptos/aptos_types"
+	"github.com/ewhal/go-wallet-sdk/coins/aptos/transaction_builder"
+
+	"github.com/ewhal/go-wallet-sdk/coins/aptos/serde"
+	"github.com/ewhal/go-wallet-sdk/crypto/ed25519"
 )
 
 func ShortenAddress(address string) string {

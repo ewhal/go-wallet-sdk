@@ -3,14 +3,15 @@ package osmo
 import (
 	"crypto/rand"
 	"encoding/hex"
-	"github.com/stretchr/testify/require"
 	"testing"
+
+	"github.com/stretchr/testify/require"
 
 	time "time"
 
-	"github.com/okx/go-wallet-sdk/coins/cosmos"
-	"github.com/okx/go-wallet-sdk/coins/cosmos/osmo/tx"
-	"github.com/okx/go-wallet-sdk/coins/cosmos/types"
+	"github.com/ewhal/go-wallet-sdk/coins/cosmos"
+	"github.com/ewhal/go-wallet-sdk/coins/cosmos/osmo/tx"
+	"github.com/ewhal/go-wallet-sdk/coins/cosmos/types"
 )
 
 // Check account details

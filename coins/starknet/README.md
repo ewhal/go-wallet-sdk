@@ -8,7 +8,7 @@ Starknet SDK is used to interact with the Starknet blockchain, it contains vario
 To obtain the latest version, simply require the project using :
 
 ```shell
-go get -u github.com/okx/go-wallet-sdk/coins/starknet
+go get -u github.com/ewhal/go-wallet-sdk/coins/starknet
 ```
 
 ## Usage
@@ -39,4 +39,4 @@ go get -u github.com/okx/go-wallet-sdk/coins/starknet
 ```
 
 ## License
-Most packages or folder are [MIT](<https://github.com/okx/go-wallet-sdk/blob/main/coins/starknet/LICENSE>) licensed, see package or folder for the respective license.
+Most packages or folder are [MIT](<https://github.com/ewhal/go-wallet-sdk/blob/main/coins/starknet/LICENSE>) licensed, see package or folder for the respective license.

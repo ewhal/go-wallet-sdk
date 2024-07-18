@@ -1,10 +1,8 @@
-module github.com/okx/go-wallet-sdk/coins/polkadot
+module github.com/ewhal/go-wallet-sdk/coins/polkadot
 
-go 1.19
+go 1.21.4
 
 require (
-	github.com/okx/go-wallet-sdk/crypto v0.0.1
-	github.com/okx/go-wallet-sdk/util v0.0.1
 	github.com/stretchr/testify v1.8.4
 )
 

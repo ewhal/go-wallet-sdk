@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/okx/go-wallet-sdk/coins/cosmos/types"
+	"github.com/ewhal/go-wallet-sdk/coins/cosmos/types"
 )
 
 type MsgCreateDenom struct {

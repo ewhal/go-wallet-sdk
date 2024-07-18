@@ -1,8 +1,8 @@
 package aptos_types
 
 import (
-	"github.com/okx/go-wallet-sdk/coins/aptos/bcs"
-	"github.com/okx/go-wallet-sdk/coins/aptos/serde"
+	"github.com/ewhal/go-wallet-sdk/coins/aptos/bcs"
+	"github.com/ewhal/go-wallet-sdk/coins/aptos/serde"
 	"golang.org/x/crypto/sha3"
 )
 

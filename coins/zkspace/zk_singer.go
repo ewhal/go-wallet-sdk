@@ -4,8 +4,9 @@ import (
 	"bytes"
 	"encoding/hex"
 	"fmt"
-	"github.com/okx/go-wallet-sdk/coins/zksync/core"
-	"github.com/okx/go-wallet-sdk/coins/zksync/zkscrypto"
+
+	"github.com/ewhal/go-wallet-sdk/coins/zksync/core"
+	"github.com/ewhal/go-wallet-sdk/coins/zksync/zkscrypto"
 )
 
 const (

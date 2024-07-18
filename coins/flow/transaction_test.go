@@ -1,9 +1,10 @@
 package flow
 
 import (
-	"github.com/okx/go-wallet-sdk/coins/flow/core"
-	"github.com/stretchr/testify/require"
 	"testing"
+
+	"github.com/ewhal/go-wallet-sdk/coins/flow/core"
+	"github.com/stretchr/testify/require"
 )
 
 func TestCreateNewAccountTx(t *testing.T) {

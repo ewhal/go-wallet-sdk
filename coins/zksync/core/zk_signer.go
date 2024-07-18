@@ -9,9 +9,10 @@ import (
 	"encoding/hex"
 	"errors"
 	"fmt"
-	"github.com/okx/go-wallet-sdk/coins/zksync/zkscrypto"
 	"math/big"
 	"strings"
+
+	"github.com/ewhal/go-wallet-sdk/coins/zksync/zkscrypto"
 )
 
 const (

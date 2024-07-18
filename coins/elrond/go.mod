@@ -1,6 +1,6 @@
-module github.com/okx/go-wallet-sdk/coins/elrond
+module github.com/ewhal/go-wallet-sdk/coins/elrond
 
-go 1.19
+go 1.21.4
 
 require (
 	github.com/btcsuite/btcd/btcutil v1.1.3

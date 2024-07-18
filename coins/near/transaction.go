@@ -5,9 +5,10 @@ import (
 	"crypto/sha256"
 	"encoding/hex"
 	"fmt"
-	"github.com/okx/go-wallet-sdk/coins/near/serialize"
-	"github.com/okx/go-wallet-sdk/crypto/base58"
 	"math/big"
+
+	"github.com/ewhal/go-wallet-sdk/coins/near/serialize"
+	"github.com/ewhal/go-wallet-sdk/crypto/base58"
 )
 
 type Transaction struct {
