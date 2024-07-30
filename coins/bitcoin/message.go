@@ -11,6 +11,8 @@ import (
 	"math/big"
 
 	"github.com/btcsuite/btcd/btcec/v2"
+	// "github.com/btcsuite/btcd/btcec/v2/ecdsa"
+	// "github.com/btcsuite/btcd/btcec/v2/ecdsa"
 	"github.com/btcsuite/btcd/btcec/v2/ecdsa"
 	"github.com/btcsuite/btcd/btcec/v2/schnorr"
 	"github.com/btcsuite/btcd/btcutil"
@@ -407,10 +409,7 @@ func SignMessage(wif string, message string) (string, error) {
 	if err != nil {
 		return "", err
 	}
-	sig, err := ecdsa.SignCompact(w.PrivKey, messageHash, w.CompressPubKey)
-	if err != nil {
-		return "", err
-	}
+	sig := ecdsa.SignCompact(w.PrivKey, messageHash, w.CompressPubKey)
 	return base64.StdEncoding.EncodeToString(sig), nil
 }
 
