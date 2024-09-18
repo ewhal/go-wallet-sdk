@@ -177,10 +177,7 @@ func Sign(rawHex string, privateKeyHex string) string {
 
 	signDocBtyes, _ := hex.DecodeString(rawHex)
 	hash := sha256.Sum256(signDocBtyes)
-	b, err := ecdsa.SignCompact(privateKey, hash[:], false)
-	if err != nil {
-		return ""
-	}
+	b := ecdsa.SignCompact(privateKey, hash[:], false)
 	return hex.EncodeToString(b[1:])
 }
 

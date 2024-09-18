@@ -31,11 +31,7 @@ func MakeSignature(privateKeyHex string, msg authtypes.StdSignMsg) (sig authtype
 	}
 	ecPriv, ecPub := btcec.PrivKeyFromBytes(pkBytes)
 
-	result, err := ecdsa.SignCompact(ecPriv, m, false)
-	if err != nil {
-		return
-	}
-
+	result := ecdsa.SignCompact(ecPriv, m, false)
 	V := result[0]
 	R := result[1:33]
 	S := result[33:65]
